@@ -1712,3 +1712,37 @@ footer {
   }
 
 }
+
+/* ============================================================
+   CLASSIFICATION CHANGE - COMPACT RESULT DETAILS
+   ============================================================ */
+
+.result-card .output-file-info p {
+  margin: 5px 0 0;
+  color: #697180;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.result-card .output-file-info p b {
+  color: #252b34;
+  font-weight: 750;
+}
+
+.result-card .output-file-info {
+  flex: 1;
+}
+
+@media (min-width: 701px) {
+  .result-card .output-file-info p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .result-card .output-file-info p {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+}
+
